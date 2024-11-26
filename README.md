@@ -2,7 +2,10 @@
 
 ## Primera parte: Configuración manual de un fork en GitHub
 
-1. Crea un nuevo repositorio vacío en GitHub con el nombre `t5-numpy-mnist-nombre1-apellido1`, sustituyendo `nombre1-apellido1` por tu identificador. **No utilices éste como plantilla**.
+1. Crea un nuevo repositorio de trabajo **vacío** en [avidaldo-ia24](https://github.com/organizations/avidaldo-ia24/repositories/new):
+    - `Owner` debe ser `avidaldo-ia24`.
+    - El nombre debe ser `t5-numpy-mnist-nombre1-apellido1`, sustituyendo `nombre1-apellido1` por tu identificador. 
+    - Ese nuevo repositorio debe ser privado.
 
 2. Clona éste repositorio en que estamos ahora.
 
@@ -26,7 +29,7 @@ Por ejemplo, si estás usando HTTPS:
 
 6. De este modo, hemos configurado un repositorio remoto llamado `upstream` que apunta al repositorio original y un repositorio remoto llamado `origin` que apunta al tuyo de trabajo en GitHub. Si hago modificaciones en el repositorio original (os avisaría si se da el caso), puedes traerte esos cambios con:
 
-`git pull upstream master`.
+`git pull upstream master`
 
 7. Crea un commit vacío a continuación del último mío y súbelo a tu repositorio:
 
